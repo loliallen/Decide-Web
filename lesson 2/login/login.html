@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="nav_item nav_item__title">Название</div>
+            <div class="nav_item">О себе</div>
+            <div class="nav_item">Контакты</div>
+            <div class="nav_item">Войти</div>
+        </nav>
+    </header>
+    <main class="main">
+        <h3 class="form_header">Войти</h3>
+        <form
+            class="form"
+            action="/someway"
+            method="POST"
+        >
+            <div class="text_field__container">
+                <input type="text" name="login" class="text_field" placeholder="Логин...">
+            </div>
+            <div class="text_field__container">
+                <input type="password" name="password" class="text_field" placeholder="Пароль...">
+            </div>
+            <div class="anothor_ways">
+
+            </div>
+            <div class="text_field__container">
+                <button class="form_submit" type="submit">Войти</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
